@@ -568,14 +568,14 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Cliens
+# Supporters
 --------------------------------------------------------------*/
-.cliens {
+.supporters {
   padding: 12px 0;
   text-align: center;
 }
 
-.cliens img {
+.supporters img {
   max-width: 45%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
@@ -584,14 +584,14 @@ section {
   filter: grayscale(100);
 }
 
-.cliens img:hover {
+.supporters img:hover {
   -webkit-filter: none;
   filter: none;
   transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
-  .cliens img {
+  .supporters img {
     max-width: 40%;
   }
 }
@@ -647,7 +647,7 @@ section {
   margin-top: 6px;
   border: 2px solid #47b2e4;
 }
-
+ 
 .about .content .btn-learn-more:hover {
   background: #47b2e4;
   color: #fff;
