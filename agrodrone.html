@@ -48,9 +48,7 @@
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top header-inner-pages">
         <div class="container d-flex align-items-center">
-
-            <!-- <h1 class="logo mr-auto"><a href="index.html">Arsha</a></h1> -->
-            <!-- Uncomment below if you prefer to use an image logo -->
+            
             <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
 
             <nav class="nav-menu d-none d-lg-block">
@@ -58,25 +56,7 @@
                     <li class="active"><a href="#header">Agrodrone</a></li>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="index.html#about">About</a></li>
-                    <!--<li><a href="index.html#services">Services</a></li>-->
                     <li><a href="index.html#team">Team</a></li>
-                    <!--<li class="drop-down"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Deep Drop Down</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
                     <li><a href="index.html#contact">Contact</a></li>
 
                 </ul>
@@ -175,7 +155,7 @@
                             E-14/X, ICT Tower (14th Floor)<br>
                             Agargaon, Dhaka 1207<br>
                             Bangladesh <br><br>
-                            <strong>Phone:</strong> +88019 85707375<br>
+                            <strong>Phone:</strong> +88 01985 707375<br>
                             <strong>Email:</strong> support@falcontech.com.bd<br>
                         </p>
                     </div>
@@ -191,24 +171,26 @@
                         </ul>
                     </div>
                     <!--
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-          -->
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Services</h4>
+                            <ul>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                            </ul>
+                    </div>
+                    -->
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h4>Our Social Networks</h4>
                         <p>follow us to get latest update of our company</p>
                         <div class="social-links mt-3">
-                            <!--<a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>-->
+                            <!--
+                            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                            -->
                             <a href="https://github.com/FalconTechBD" class="github"><i class="bx bxl-github"></i></a>
                             <a href="https://www.linkedin.com/company/falcon-tech-bd" class="linkedin"><i class="bx bxl-linkedin"></i></a>
                             <a href="https://www.pinterest.com/falcontechbd" class="pinterest"><i class="icofont-pinterest"></i></a>
@@ -255,8 +237,6 @@
             var button = document.getElementById("footer-newsletter-submit");
             var status = document.getElementById("footer-newsletter-status");
 
-            // Success and Error functions for after the form is submitted
-
             function success() {
                 status.innerHTML = "Thank you for submitting!";
                 form.reset();
@@ -267,16 +247,12 @@
                 status.innerHTML = "Oops! There was a problem.";
             }
 
-            // handle the form submission event
-
             form.addEventListener("submit", function(ev) {
                 ev.preventDefault();
                 var data = new FormData(form);
                 ajax(form.method, form.action, data, success, error);
             });
         });
-
-        // helper function for sending an AJAX request
 
         function ajax(method, url, data, success, error) {
             var xhr = new XMLHttpRequest();
