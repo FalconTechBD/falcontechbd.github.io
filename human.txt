@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Jubayer Abdullah Joy    -- CTO -- github.com/jubayerjoy
+    Ahammad Sabir Siddique  -- CTO -- github.com/sabir01
+    Abu Sayeed Md Afridi    -- CTO -- github.com/afridi013
+
+# THANKS
+
+    Jubayer Abdullah Joy
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Github pages, jQuery, bootstrap, owl.carousel
