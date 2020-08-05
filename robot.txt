@@ -11,4 +11,4 @@ Disallow: /human.txt
 Disallow: /google9b83d4a1bed5a579.html
 Disallow: /loaderio-f017a06ed01ebdc5c24f16b640b1200d.txt
 
-Sitemap: http://example.com/sitemap_location.xml
+Sitemap: https://falcontech.com.bd/sitemap.xml
